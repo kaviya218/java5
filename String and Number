@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        sc.nextLine();
+        String f = sc.nextLine();
+        int d = sc.nextInt();
+        int e = sc.nextInt();
+        System.out.println("Match Details:");
+        System.out.println("Team 1:");
+        System.out.println("Name: "+a);
+        System.out.println("Score: "+b);
+        System.out.println("Overs played: "+c);
+        System.out.println("Team 2:");
+        System.out.println("Name: "+f);
+        System.out.println("Score: "+d);
+        System.out.println("Overs played: "+e);
+        
+    }
+}
